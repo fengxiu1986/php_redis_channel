@@ -8,7 +8,7 @@
 namespace App\Console\Commands\Meituan;
 
 use App\Business\MeituantmcSupplierPushData;
-use App\Console\Commands\HotelQueueCrontab;
+use App\Console\Commands\BaseQueueCrontab;
 use App\Helpers\CacheKey;
 use App\Models\BaseHotelSource;
 use App\Services\Hotels\HotelSupplierRedisQueueService;

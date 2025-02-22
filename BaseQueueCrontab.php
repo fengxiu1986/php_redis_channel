@@ -18,7 +18,7 @@ use Throwable;
  * 增加了执行的php进程限制，防止出现一个任务出现大量php进程执行
  * 增加了执行的php进程时间限制，1800S后自动退出，防止php内存溢出异常
  *
- * @author  yutu
+ * @author  cyt
  * @date    2021-12-09
  */
 
